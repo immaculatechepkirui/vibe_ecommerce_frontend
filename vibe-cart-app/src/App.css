@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,600,700&display=swap');
+
+:root {
+  --primary: #0a0a19;
+  --secondary: #1a237e;
+  --accent: #21213d;
+  --highlight: #3e4495;
+  --gray-light: #f5f5f7;
+  --gray-border: #e3e3eb;
+  --gray-bg: #f6f7f9;
+  --cart-badge: #12123d;
+}
+
+.app-wrap {
+  min-height: 100vh;
+  background: var(--gray-bg);
+}
+
+.main-title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 32px 0 0 48px;
+}
+
+.main-desc {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #757575;
+  margin: 4px 0 32px 48px;
+}
+
+main {
+  padding-bottom: 48px;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  background: #f2f3f6;
+}
+::-webkit-scrollbar-thumb {
+  background: #e3e3eb;
+}
